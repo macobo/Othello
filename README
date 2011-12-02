@@ -1,0 +1,11 @@
+=======Othello=======
+Autor: Karl-Aksel Puulmann (oxymaccy@gmail.com)
+Date: 03.12.2011
+
+A simple othello game written using pygame and python implementing. 
+The game is in Estonian (but changing the language would only mean
+changing ~10 strings) and was homework for my AI class. I am currently
+quite proud of the GUI. :)
+
+All code is free to use, but if you make something interesting using
+my code, notify me by email.
