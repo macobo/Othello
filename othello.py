@@ -76,6 +76,9 @@ class othello(object):
                     abot.check_board(self.game.board) ## Test if the bot has correct data
                 else:
                     print 'Computer passes!?!'
+                    assert False, "Bot passes with a move" ## can't happen : previous if clause.
+                b, w = self.game.get_score()
+                self.board.draw_score(b, w, self.bot_turn)
                 turn = 1 - turn
                 pygame.display.flip()
                 continue #skip over the rest
